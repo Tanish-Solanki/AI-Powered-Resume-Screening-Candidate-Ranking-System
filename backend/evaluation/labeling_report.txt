@@ -1,0 +1,63 @@
+======================================================================
+  GROUND TRUTH GENERATION REPORT
+======================================================================
+
+  Total labels generated:  30
+  Labels needing review:   30 (ALL)
+
+  Relevance Distribution (auto-suggested):
+    0 (Not Relevant):      9
+    1 (Marginally Rel.):   12
+    2 (Relevant):          3
+    3 (Highly Relevant):   6
+
+  ------------------------------------------------------------
+  Job: Senior Backend Python Developer
+  ------------------------------------------------------------
+    Arjun Mehta               -> 3 (Highly Rel.  ) [[REVIEW]]
+    Priya Sharma              -> 2 (Relevant     ) [[REVIEW]]
+    Rahul Kumar               -> 2 (Relevant     ) [[REVIEW]]
+    Sneha Patel               -> 1 (Marginal     ) [[REVIEW]]
+    Vikram Singh              -> 0 (Not Relevant ) [[REVIEW]]
+    Ananya Reddy              -> 3 (Highly Rel.  ) [[REVIEW]]
+    Deepak Joshi              -> 1 (Marginal     ) [[REVIEW]]
+    Meera Nair                -> 1 (Marginal     ) [[REVIEW]]
+    Karthik Rao               -> 1 (Marginal     ) [[REVIEW]]
+    Sanya Gupta               -> 1 (Marginal     ) [[REVIEW]]
+
+  ------------------------------------------------------------
+  Job: Data Scientist - NLP & Machine Learning
+  ------------------------------------------------------------
+    Arjun Mehta               -> 0 (Not Relevant ) [[REVIEW]]
+    Priya Sharma              -> 3 (Highly Rel.  ) [[REVIEW]]
+    Rahul Kumar               -> 0 (Not Relevant ) [[REVIEW]]
+    Sneha Patel               -> 0 (Not Relevant ) [[REVIEW]]
+    Vikram Singh              -> 0 (Not Relevant ) [[REVIEW]]
+    Ananya Reddy              -> 0 (Not Relevant ) [[REVIEW]]
+    Deepak Joshi              -> 3 (Highly Rel.  ) [[REVIEW]]
+    Meera Nair                -> 0 (Not Relevant ) [[REVIEW]]
+    Karthik Rao               -> 0 (Not Relevant ) [[REVIEW]]
+    Sanya Gupta               -> 3 (Highly Rel.  ) [[REVIEW]]
+
+  ------------------------------------------------------------
+  Job: Full Stack Developer (React + Node.js)
+  ------------------------------------------------------------
+    Arjun Mehta               -> 1 (Marginal     ) [[REVIEW]]
+    Priya Sharma              -> 1 (Marginal     ) [[REVIEW]]
+    Rahul Kumar               -> 3 (Highly Rel.  ) [[REVIEW]]
+    Sneha Patel               -> 1 (Marginal     ) [[REVIEW]]
+    Vikram Singh              -> 0 (Not Relevant ) [[REVIEW]]
+    Ananya Reddy              -> 1 (Marginal     ) [[REVIEW]]
+    Deepak Joshi              -> 1 (Marginal     ) [[REVIEW]]
+    Meera Nair                -> 2 (Relevant     ) [[REVIEW]]
+    Karthik Rao               -> 1 (Marginal     ) [[REVIEW]]
+    Sanya Gupta               -> 1 (Marginal     ) [[REVIEW]]
+
+======================================================================
+  NEXT STEPS:
+  1. Open evaluation/ground_truth.json
+  2. Review each relevance label against the resume and JD
+  3. Adjust grades where the auto-suggestion is wrong
+  4. Change 'label_status' to 'VERIFIED' for reviewed labels
+  5. Run: python -m evaluation.run_evaluation
+======================================================================

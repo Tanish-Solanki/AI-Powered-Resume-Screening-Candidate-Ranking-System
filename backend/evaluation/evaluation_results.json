@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-06-06T11:40:54.778427",
+  "aggregate_metrics": {
+    "num_queries": 3,
+    "MAP": 0.9921,
+    "MRR": 1.0,
+    "per_k": {
+      "5": {
+        "mean_precision_at_k": 0.8667,
+        "mean_recall_at_k": 0.9444,
+        "mean_ndcg_at_k": 0.9907
+      }
+    }
+  },
+  "per_query_results": [
+    {
+      "job_id": "jd_backend_python",
+      "job_title": "Senior Backend Python Developer",
+      "metrics": {
+        "average_precision": 0.9762,
+        "num_relevant": 6,
+        "num_candidates": 10,
+        "per_k": {
+          "5": {
+            "precision_at_k": 1.0,
+            "recall_at_k": 0.8333,
+            "ndcg_at_k": 1.0
+          }
+        }
+      },
+      "ranking_detail": [
+        {
+          "rank": 1,
+          "candidate_id": "resume_arjun_mehta",
+          "candidate_name": "Arjun Mehta",
+          "system_score": 79.71,
+          "human_relevance": 3,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 2,
+          "candidate_id": "resume_ananya_reddy",
+          "candidate_name": "Ananya Reddy",
+          "system_score": 73.07,
+          "human_relevance": 2,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 3,
+          "candidate_id": "resume_karthik_rao",
+          "candidate_name": "Karthik Rao",
+          "system_score": 60.62,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 4,
+          "candidate_id": "resume_rahul_kumar",
+          "candidate_name": "Rahul Kumar",
+          "system_score": 56.37,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 5,
+          "candidate_id": "resume_sneha_patel",
+          "candidate_name": "Sneha Patel",
+          "system_score": 53.01,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 6,
+          "candidate_id": "resume_sanya_gupta",
+          "candidate_name": "Sanya Gupta",
+          "system_score": 40.69,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 7,
+          "candidate_id": "resume_priya_sharma",
+          "candidate_name": "Priya Sharma",
+          "system_score": 38.36,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 8,
+          "candidate_id": "resume_meera_nair",
+          "candidate_name": "Meera Nair",
+          "system_score": 36.57,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 9,
+          "candidate_id": "resume_deepak_joshi",
+          "candidate_name": "Deepak Joshi",
+          "system_score": 34.8,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 10,
+          "candidate_id": "resume_vikram_singh",
+          "candidate_name": "Vikram Singh",
+          "system_score": 19.01,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        }
+      ]
+    },
+    {
+      "job_id": "jd_data_scientist",
+      "job_title": "Data Scientist - NLP & Machine Learning",
+      "metrics": {
+        "average_precision": 1.0,
+        "num_relevant": 3,
+        "num_candidates": 10,
+        "per_k": {
+          "5": {
+            "precision_at_k": 0.6,
+            "recall_at_k": 1.0,
+            "ndcg_at_k": 0.9721
+          }
+        }
+      },
+      "ranking_detail": [
+        {
+          "rank": 1,
+          "candidate_id": "resume_priya_sharma",
+          "candidate_name": "Priya Sharma",
+          "system_score": 74.73,
+          "human_relevance": 3,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 2,
+          "candidate_id": "resume_sanya_gupta",
+          "candidate_name": "Sanya Gupta",
+          "system_score": 62.69,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 3,
+          "candidate_id": "resume_deepak_joshi",
+          "candidate_name": "Deepak Joshi",
+          "system_score": 59.57,
+          "human_relevance": 2,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 4,
+          "candidate_id": "resume_ananya_reddy",
+          "candidate_name": "Ananya Reddy",
+          "system_score": 35.53,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 5,
+          "candidate_id": "resume_karthik_rao",
+          "candidate_name": "Karthik Rao",
+          "system_score": 31.4,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 6,
+          "candidate_id": "resume_arjun_mehta",
+          "candidate_name": "Arjun Mehta",
+          "system_score": 29.45,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 7,
+          "candidate_id": "resume_sneha_patel",
+          "candidate_name": "Sneha Patel",
+          "system_score": 28.88,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 8,
+          "candidate_id": "resume_rahul_kumar",
+          "candidate_name": "Rahul Kumar",
+          "system_score": 23.58,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 9,
+          "candidate_id": "resume_vikram_singh",
+          "candidate_name": "Vikram Singh",
+          "system_score": 21.81,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 10,
+          "candidate_id": "resume_meera_nair",
+          "candidate_name": "Meera Nair",
+          "system_score": 20.35,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        }
+      ]
+    },
+    {
+      "job_id": "jd_fullstack_react",
+      "job_title": "Full Stack Developer (React + Node.js)",
+      "metrics": {
+        "average_precision": 1.0,
+        "num_relevant": 5,
+        "num_candidates": 10,
+        "per_k": {
+          "5": {
+            "precision_at_k": 1.0,
+            "recall_at_k": 1.0,
+            "ndcg_at_k": 1.0
+          }
+        }
+      },
+      "ranking_detail": [
+        {
+          "rank": 1,
+          "candidate_id": "resume_rahul_kumar",
+          "candidate_name": "Rahul Kumar",
+          "system_score": 69.6,
+          "human_relevance": 3,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 2,
+          "candidate_id": "resume_meera_nair",
+          "candidate_name": "Meera Nair",
+          "system_score": 59.32,
+          "human_relevance": 3,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 3,
+          "candidate_id": "resume_ananya_reddy",
+          "candidate_name": "Ananya Reddy",
+          "system_score": 43.15,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 4,
+          "candidate_id": "resume_arjun_mehta",
+          "candidate_name": "Arjun Mehta",
+          "system_score": 41.94,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 5,
+          "candidate_id": "resume_sneha_patel",
+          "candidate_name": "Sneha Patel",
+          "system_score": 38.2,
+          "human_relevance": 1,
+          "is_relevant_binary": true
+        },
+        {
+          "rank": 6,
+          "candidate_id": "resume_sanya_gupta",
+          "candidate_name": "Sanya Gupta",
+          "system_score": 33.69,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 7,
+          "candidate_id": "resume_karthik_rao",
+          "candidate_name": "Karthik Rao",
+          "system_score": 31.97,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 8,
+          "candidate_id": "resume_priya_sharma",
+          "candidate_name": "Priya Sharma",
+          "system_score": 21.65,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 9,
+          "candidate_id": "resume_deepak_joshi",
+          "candidate_name": "Deepak Joshi",
+          "system_score": 21.45,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        },
+        {
+          "rank": 10,
+          "candidate_id": "resume_vikram_singh",
+          "candidate_name": "Vikram Singh",
+          "system_score": 18.54,
+          "human_relevance": 0,
+          "is_relevant_binary": false
+        }
+      ]
+    }
+  ]
+}
